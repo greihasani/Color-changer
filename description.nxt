@@ -1,0 +1,29 @@
+SI fillim hapim nje tag div i cili do te perdoret si 
+kontainer kryesor ku do te futim te gjith elementet e tjer ,me pas hapim dhe dy te tjer ku njeri do te perdoret si kontainer 
+per ngjyren ndesa tjetri per te vendosur butonat.
+Me pas krijojme tre butona ku njeri do te perdoret per te ndryshuar ngjyren njeri per ta kthyer pas dhe tjeri para.
+Me pas bejme dhe lidhjet me CSS dhe Java script me ane te linkeve.
+
+Fillojme me stilizime,e nisim nga body ku i japim vlerat e marging dhe hight dhe e krijojme nje diplay flet qe ta 
+kemi me te lehet per te punuar me strukturen.
+Me pas pozicionojme kontenierin kryesor ne qender dhe pastaj i japim atribute 
+kontainerit tjeter qe do te ket ngjyren brenda.
+E njetja gje me pas edhe per butonat.
+
+Tani fillojme me Javascript per ti dhene funksionet e kerkuara.
+-Krijojme 6 variabla per te ruajtur elementet e thirrur nga HTML
+Tre do i perdorim per te butonat dhe nje per kontainerin qe ka ngjyren,
+ndersa 2 jane per te vendosur ngjyren qe do te jete
+ne fillim dhe vlera fillestare qe do te jete 0.
+
+Krijojme me pas funksionin GetRandomcolor nga i ciliri do te marim te gjitha 
+ngjyrat nje radhe te pacaktuar.
+-Me pas krijojme funksionin changecolor me ane te te cilit do te mund te japim komand per te ndryhuar ngjyren
+dhe per te marr nje ngjyre cfaredo.I vendosim dhe indexin i cili do te jete ne rritje.
+dhe i japim update  buton per te ndyhuar ngjyren.
+-Me pas do te bejme funksionet per undocolor dhe redocolor ,per undo color do ta bejme
+ qe te kthej nje ngjyre me para ndersa redocolor nje me pas.
+ Te undo do e bejme indexin ne zbritje pra(--) ndersa te redo do e bejme ne rritje pra (++) duke perdorur dhe color histori qe te shikoj ngjyren qe ka pas.
+ -Me pas i japim dhe komandat e clik per mousin me ane te add event listener.
+ 
+
